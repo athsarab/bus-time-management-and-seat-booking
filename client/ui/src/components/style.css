@@ -1,0 +1,36 @@
+.employee-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  margin: 10px;
+}
+
+.employee-card:hover {
+  transform: translateY(-5px);
+}
+
+.employee-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.employee-details {
+  padding: 20px;
+}
+
+.employee-name {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.employee-position, .employee-email {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,11 @@
+.list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 4fr));
+    grid-gap: 30px;
+    justify-items: center;
+}
+body {
+    background-color: #cecccc; /* replace 'yourColor' with your desired color code */
+}
+
+

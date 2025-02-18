@@ -1,0 +1,65 @@
+/* insertLuggage.css */
+
+/* Form container */
+.form-container {
+  width: 100%;
+  margin: 100 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 5px solid #ccc;
+  border-radius: 4px;
+  margin-left: 100%;
+  margin-bottom: 0px;
+  color: #333; /* Change font color */
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+/* Form title */
+.form-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Form fields */
+.form-container div {
+  margin-bottom: 0%;
+  padding: 10px;
+}
+
+/* Label styles */
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Input styles */
+.form-container input,
+.form-container textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button styles */
+.form-container button {
+  padding: 10px   20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}

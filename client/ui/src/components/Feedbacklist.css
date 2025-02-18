@@ -1,0 +1,8 @@
+.list{
+    display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  background-color: #d5ebfd; /* Set background color */
+  padding: 20px; /* Add padding to create space around the grid */
+  border-radius: 10px; /* Add border radius for rounded corners */
+}

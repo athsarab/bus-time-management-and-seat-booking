@@ -1,0 +1,31 @@
+.luggage-details {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .luggage-details h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .luggage-details p {
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  /* Styling individual data points */
+  .luggage-details p:nth-child(odd) {
+    font-weight: bold;
+  }
+  
+  /* Styling container */
+  .luggage-details {
+    margin-bottom: 30px;
+  }
+  

@@ -1,0 +1,56 @@
+.package-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content {
+    padding: 16px;
+    background-color: #a26161; /* Light background for content */
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: #333; /* Dark text color */
+}
+
+.card-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 8px;
+}
+.card-id{
+    font-size: 1rem;
+    color: #555; 
+}
+
+.card-price {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    color: #fdfeff; /* Price color */
+}
+
+.card-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff; /* Button color */
+    color: #c60e0e; /* Button text color */
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.card-btn:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}

@@ -1,0 +1,42 @@
+/* Style the container */
+.container-fluid {
+    background-color: #333; /* Background color of the navigation bar */
+    padding: 10px; /* Padding around the content inside the container */
+  }
+  
+  /* Style the navbar-brand */
+  .navbar-brand {
+    color: white; /* Color of the brand text */
+    font-size: 24px; /* Font size of the brand text */
+    font-weight: bold; /* Bold font weight for emphasis */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Style the navbar-toggler */
+  .navbar-toggler {
+    border: none; /* Remove border */
+    color: white; /* Color of the toggler icon */
+  }
+  
+  /* Style the navbar-nav */
+  .navbar-nav {
+    margin-left: auto; /* Move the nav items to the right */
+  }
+  
+  /* Style the nav-link */
+  .nav-link {
+    color: white; /* Color of the nav links */
+    text-decoration: none; /* Remove underline */
+    margin-right: 10px; /* Add space between nav links */
+  }
+  
+  /* Style the active nav-link */
+  .nav-link.active {
+    font-weight: bold; /* Bold font weight for active link */
+  }
+  
+  /* Style the disabled nav-link */
+  .nav-link.disabled {
+    color: rgba(255, 255, 255, 0.5); /* Lighter color for disabled link */
+  }
+  

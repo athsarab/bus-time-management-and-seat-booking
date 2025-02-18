@@ -1,0 +1,52 @@
+body {
+  height: 100%;
+  
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.dropdown-item:hover {
+  background-color: #001f3f !important;
+}
+
+.search-btn:hover {
+  background-color: #001f3f;
+}
+
+.bg-light-gray {
+  background-color: #333333; /* Light gray background color */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* First row for content, second row for footer */
+  min-height: 100vh;
+}
+
+.navbar-custom {
+  background-color: #344966 !important;
+}
+
+.footer-custom {
+  background-color: #344966 !important;
+}
+

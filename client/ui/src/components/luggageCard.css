@@ -1,0 +1,103 @@
+/* luggageCard.css */
+
+.luggage-card {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 50px;
+  margin-bottom: 20px;
+  margin-left: 1px;
+  font-family: 'Roboto', sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.luggage-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.luggage-card h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.luggage-card p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.btn {
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.qr-code-container {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.qr-code-container .btn {
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.form-control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* luggageCard.css */
+
+.edit-btn {
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: transform 0.3s ease; /* Add transition for smooth animation */
+}
+
+.edit-btn:hover {
+  background-color: #218838;
+}
+
+.edit-btn:active {
+  transform: scale(0.95); /* Shrink the button when clicked */
+}

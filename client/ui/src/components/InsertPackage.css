@@ -1,0 +1,61 @@
+form {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 1px solid #556bcd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #e3dada;
+    font-family: Arial, sans-serif;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    color:  #555;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    border-color: #000306;
+    outline: none;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: rgb(7, 0, 0);
+    padding: 14px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border: 1px solid #000000;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

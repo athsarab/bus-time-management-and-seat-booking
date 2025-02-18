@@ -1,0 +1,36 @@
+/* CSS for Contact Us Page */
+
+/* Main Container */
+h1 {
+    font-size: 18px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+  }
+  
+  /* Title */
+  h1 span {
+    font-weight: bold;
+  }
+  
+  /* Contact Information */
+  h1 .contact-info {
+    margin-top: 10px;
+  }
+  
+  /* Email and Phone */
+  h1 .contact-info span {
+    color: #007bff; /* Blue color for email */
+  }
+  
+  h1 .contact-info strong {
+    color: #28a745; /* Green color for phone */
+  }
+  
+  /* Responsive Styling */
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 16px;
+    }
+  }
+  

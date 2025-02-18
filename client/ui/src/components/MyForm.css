@@ -1,0 +1,90 @@
+/* Style for the form container */
+.form-container {
+ 
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #9e9e9e;
+}
+
+/* Style for form headings */
+.form-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+/* Style for form labels */
+.form-label {
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+/* Style for form inputs */
+.form-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/* Style for form select */
+.form-select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+
+}
+
+/* Style for submit button */
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #70779b;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size:22px;
+}
+
+/* Style for submit button on hover */
+.submit-btn:hover {
+  background-color: #080646;
+  color: rgb(238, 238, 238);
+}
+
+/* Style for form inputs on focus */
+.form-input:focus,
+.form-select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* MyForm.css or your CSS file */
+
+.total-label {
+  font-size: 1.2em;
+  margin-top: 20px;
+  display: block;
+  color: #333;
+}
+
+.total-price {
+  font-size: 2em;
+  margin-top: 10px;
+  color: #210a72; /* Green color for the price */
+  
+  border-bottom: 2px solid #e0e0e0; /* Light grey border bottom */
+  padding-bottom: 10px;
+}
+
+.price-amount {
+  font-weight: bold;
+}

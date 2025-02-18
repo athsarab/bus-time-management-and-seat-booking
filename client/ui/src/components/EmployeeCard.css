@@ -1,0 +1,78 @@
+.employee-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  margin: 10px;
+
+  /* Increase border size and change color */
+  border: 2px solid rgba(134, 135, 137, 0.5); /* Semi-transparent border */
+  box-shadow: 0 0 10px rgba(131, 131, 132, 0.5); /* Blurred border effect */
+  background-color: #f0f0f0; /* You can change the color code to your desired color */
+}
+
+.employee-card:hover {
+  transform: translateY(-5px);
+}
+
+.employee-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.employee-details {
+  padding: 20px;
+}
+
+.employee-name {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.employee-position, .employee-email {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+.button-container {
+  display: inline-block;
+}
+.employee-input {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-container {
+  display: flex;
+  
+}
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.btn-primary {
+  background-color: #28a745; /* Green color */
+  color: #fff;
+  margin-right: 5px; /* Add small margin-right */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Red color */
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-danger:hover {
+  filter: brightness(90%);
+}
